@@ -26,6 +26,16 @@ The script makes use of some environment variables.
 ./deploy.sh
 ```
 
+### certs
+
+This feature, should only need to be used in dev environment. Try to avoid the usage for other envs.
+
+```
+./certs.sh
+```
+
+**Note** This script, requires both, `DEPLOY_ENV` and `PREFIX` to be set.
+
 #### Outcome
 
 ```
